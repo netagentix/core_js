@@ -1,7 +1,7 @@
 /*
  * ----------------------------------------------------------------------------
- * Agentix OS - Quantum Continuous Engine
- * Copyright (C) 2026 Agentix Project
+ * Spatioz OS - Quantum Continuous Engine
+ * Copyright (C) 2026 Spatioz Project
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Affero General Public License as published
@@ -20,8 +20,57 @@
 
 /**
  * ============================================================
- * KERNEL AGENTIX OS — corekernel.js
+ * KERNEL SPATIOZ OS — corekernel.js
  * Quantum Geodesic Framewok (QGF) v2.0
+ *
+ * ──────────────────────────────────────────────────────────────────────────
+ * QGF MATHEMATICAL PRINCIPLES
+ * ──────────────────────────────────────────────────────────────────────────
+ * Geodesic math empowered by quantum principles:
+ *
+ *  • QFT-INSPIRED MATH — Fields treated as continuous excitations (Qu-Fields)
+ *    rather than discrete bits. Noise is not an enemy but a physical feature,
+ *    naturally absorbed into the stochastic Hamiltonian flow.
+ *
+ *  • ENDPOINT CONSTRAINT (Non-Local Locking) — Entanglement braids are
+ *    anchored at both endpoints in low-dimensional spatio-temporal space.
+ *    This collapses exponential combinatorial degrees of freedom to linear,
+ *    keeping the system tractable at massive Qu-Field counts (1M+).
+ *
+ *  • TUNNELING & SYMMETRY BREAKING — Thermal/quantum noise (Temperature > 0)
+ *    injects stochastic excitation that breaks local symmetry and drives the
+ *    system out of local minima toward global minima without branching logic.
+ *    Temperature = 0 collapses to pure deterministic geodesic (minimum action).
+ *
+ *  • RIEMANNIAN MANIFOLD GEODESICS — All agent flow follows geodesic paths
+ *    on a non-Euclidean Riemannian manifold. Curvature is shaped by attractors
+ *    (goals) and repulsors (obstacles). Hyperbolic space is used for massive
+ *    Qu-Field graphs, exponentially compressing embedding dimensionality.
+ *
+ * ──────────────────────────────────────────────────────────────────────────
+ * GOLDEN RULES
+ * ──────────────────────────────────────────────────────────────────────────
+ *  • BRANCHLESS — No if-then in runtime decision loops. All logic expressed
+ *    as continuous algebraic masks, soft-thresholds, and valence fields.
+ *  • CONTINUOUS / ANALOG — Computation operates on continuous manifolds,
+ *    not discrete binary state machines. Suitable for analog, neuromorphic,
+ *    photonic, and memristor hardware architectures.
+ *
+ * ──────────────────────────────────────────────────────────────────────────
+ * DOMAIN APPLICATIONS
+ * ──────────────────────────────────────────────────────────────────────────
+ *  ✔  Swarm and agentic intelligence systems
+ *  ✔  On-device agentic intelligence (edge AI, mobile, embedded)
+ *  ✔  Post-quantum cryptographic security layers based on physical/natural laws
+ *  ✔  Smart cities and smart warehouses with fully autonomous agent decisions
+ *  ✔  Smooth transition from simulation to robotic embodiment
+ *  ✔  Structural simulation: cosmology, quantum systems, protein folding,
+ *      robotics, autonomous swarms, and artificial autonomous neural networks
+ *      with intuitive visual telemetry
+ *  ✔  Runtime acceleration for generative AI inference
+ *  ✘  Not suitable for codebases requiring strict explicit branching logic
+ * ──────────────────────────────────────────────────────────────────────────
+ *
  * ============================================================
  * Gold Rule: No explicit if-then in runtime loops.
  * All logic is mapped through relational tension & YAML config.
@@ -93,7 +142,7 @@ class Semantic {
 }
 
 // ─────────────────────────────────────────────
-// 3. AGENTIX KERNEL — Base Class
+// 3. SPATIOZ KERNEL — Base Class
 //    Extend this in each simulation
 // ─────────────────────────────────────────────
 class AgentixKernel {
